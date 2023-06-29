@@ -1,7 +1,7 @@
 import argparse
 import logging
 import requests
-import json
+import re
 
 import apache_beam as beam
 from apache_beam.io import WriteToText
